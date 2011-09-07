@@ -1,0 +1,16 @@
+Thank you for downloading and installing SVNForSQL2005. By default it should be in 
+\Program Files\ReluctantDBA.com\SVNForSQL2005. It's a console application so you'll
+need to run it in a command shell.
+
+SVNForSQL2005.exe -? -s[erver]:ServerName -db:DatabaseName -u:UserLogin
+-pwd:password -procedures -tables -fti -functions -views
+-? shows this message
+-s[erver] Fully qualified name of the database server
+-db Database name
+-u User login -pwd Password (do not include to use trusted connection)
+-procedures Flag to include stored procedures
+-tables Flag to include tables
+-fti Flag to include Full Text Indexing information
+-functions Flag to include User Defined Functions
+-views Flag to include Views
+-uddts Flag to include User Defined Data Types

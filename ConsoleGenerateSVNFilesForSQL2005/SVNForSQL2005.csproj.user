@@ -1,0 +1,8 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartArguments>-s:.\sqlexpress -db:tempdb -svndirectory:"C:\Documents and Settings\jfinsel\My Documents\SQL Server Management Studio\Projects\Galaxy4" -procedures -tables -fti -functions -views -uddts</StartArguments>
+  </PropertyGroup>
+</Project>

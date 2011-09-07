@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateSVNFilesForSQL2005", "GenerateSVNFilesForSQL2005\GenerateSVNFilesForSQL2005.csproj", "{444B5C25-9BC5-48C9-8DD2-E1E15FA5A409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SVNGeneratorForSQL2005", "SVNGeneratorForSQL2005\SVNGeneratorForSQL2005.csproj", "{487A5B05-42E5-4A07-BB73-01AA8FCC0073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SVNForSQL2005", "ConsoleGenerateSVNFilesForSQL2005\SVNForSQL2005.csproj", "{BA818C6D-31FF-406C-9115-EDED44F69BA9}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InstallSVNFilesForSQL2005", "InstallSVNFilesForSQL2005\InstallSVNFilesForSQL2005.vdproj", "{0AC17F02-A6C7-4BFA-AB56-35ECC85D18B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{444B5C25-9BC5-48C9-8DD2-E1E15FA5A409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444B5C25-9BC5-48C9-8DD2-E1E15FA5A409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444B5C25-9BC5-48C9-8DD2-E1E15FA5A409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444B5C25-9BC5-48C9-8DD2-E1E15FA5A409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487A5B05-42E5-4A07-BB73-01AA8FCC0073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487A5B05-42E5-4A07-BB73-01AA8FCC0073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487A5B05-42E5-4A07-BB73-01AA8FCC0073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487A5B05-42E5-4A07-BB73-01AA8FCC0073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA818C6D-31FF-406C-9115-EDED44F69BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA818C6D-31FF-406C-9115-EDED44F69BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA818C6D-31FF-406C-9115-EDED44F69BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA818C6D-31FF-406C-9115-EDED44F69BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC17F02-A6C7-4BFA-AB56-35ECC85D18B1}.Debug|Any CPU.ActiveCfg = Debug
+		{0AC17F02-A6C7-4BFA-AB56-35ECC85D18B1}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
